@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6d17bd96ff4332109327ffffffffffa6" label="my_test_table" max_length="40" name="x_58872_needit_my_test_table" type="collection">
+        <element label="Units sold" max_length="40" name="units_sold" type="integer"/>
+        <element display="true" label="Agg Month" max_length="40" name="agg_month" type="glide_date"/>
+        <element label="revenue" max_length="40" name="revenue" type="integer"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

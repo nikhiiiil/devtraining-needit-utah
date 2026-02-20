@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7f26208fff4732109327ffffffffffaa" sys_domain="global" table="x_58872_needit_progress_bar_records" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 06:39:30</sys_created_on>
+            <sys_id>5c862c8fff4732109327fffffffffffb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_progress_bar_records" sys_domain="global" view="Default view">7f26208fff4732109327ffffffffffaa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 06:39:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 06:39:30</sys_created_on>
+            <sys_id>d8866c8fff4732109327ffffffffff3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_progress_bar_records" sys_domain="global" view="Default view">7f26208fff4732109327ffffffffffaa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 06:39:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_58872_needit_progress_bar_records</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-18 06:38:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f26208fff4732109327ffffffffffaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_progress_bar_records</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_7f26208fff4732109327ffffffffffaa</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-18 06:38:06</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f5f8fd856da23210958b81d43b6e10cd</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_section_7f26208fff4732109327ffffffffffaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7f26208fff4732109327ffffffffffaa" sys_domain="global" table="x_58872_needit_progress_bar_records" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_created_on</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-18 06:39:30</sys_created_on><sys_id>5c862c8fff4732109327fffffffffffb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_progress_bar_records" sys_domain="global" view="Default view">7f26208fff4732109327ffffffffffaa</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-18 06:39:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-18 06:39:30</sys_created_on><sys_id>d8866c8fff4732109327ffffffffff3a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_58872_needit_progress_bar_records" sys_domain="global" view="Default view">7f26208fff4732109327ffffffffffaa</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-18 06:39:30</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_58872_needit_progress_bar_records</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-18 06:38:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f26208fff4732109327ffffffffffaa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_progress_bar_records</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_section_7f26208fff4732109327ffffffffffaa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-18 06:38:06</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-521585130</payload_hash>
+        <record_name>progress_bar_records</record_name>
+        <reverted_from/>
+        <source>cb180f90ff4b32109327ffffffffffe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 06:39:30</sys_created_on>
+        <sys_id>d4866c8fff4732109327ffffffffff3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c6f79ab810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-18 06:39:30</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>58866c8f13473210476586babe40413d</update_guid>
+        <update_guid_history>58866c8f13473210476586babe40413d:-521585130,0b56e48fea4732105180243693c9743f:-1921766327,7f26208fde473210486573d9581edaae:-1437618664</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 07:58:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>699ca4b4479a4a5186c0217fbd45c6a1</sys_id>
+        <sys_metadata>7f26208fff4732109327ffffffffffaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_progress_bar_records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">b775e40fff4732109327ffffffffff90</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7f26208fff4732109327ffffffffffaa</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7f26208fff4732109327ffffffffffaa">d4866c8fff4732109327ffffffffff3e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-18 07:58:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

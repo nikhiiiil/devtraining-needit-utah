@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7e104a1aff8332109327ffffffffffa4" label="day_level_data" max_length="40" name="x_58872_needit_day_level_data" type="collection">
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element display="true" label="purchase time" max_length="40" name="purchase_time" type="glide_date_time"/>
+        <element label="units sold" max_length="40" name="units_sold" type="integer"/>
+        <element label="revenue" max_length="40" name="revenue" type="integer"/>
+    </element>
+</database>

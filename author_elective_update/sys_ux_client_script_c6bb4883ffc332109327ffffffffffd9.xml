@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="default">83699e05ff4332109327ffffffffff9c</macroponent>
+        <name>badge/now_default/label</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  console.log("Before API : ", api);
+  console.log("Before Helper : ", helpers);
+  if (api.item.value.percentage > 80) {
+    return 'optimal';
+  } else if (api.item.value.percentage > 50) {
+    return 'warning';
+  } else {
+    return 'critical';
+  }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 04:59:53</sys_created_on>
+        <sys_id>c6bb4883ffc332109327ffffffffffd9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>badge/now_default/label</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_c6bb4883ffc332109327ffffffffffd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 08:08:11</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f5f8fd856da23210958b81d43b6e10cd</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_c6bb4883ffc332109327ffffffffffd9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="default"&gt;83699e05ff4332109327ffffffffff9c&lt;/macroponent&gt;&lt;name&gt;badge/now_default/label&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  console.log("Before API : ", api);
+  console.log("Before Helper : ", helpers);
+  if (api.item.value.percentage &gt; 80) {
+    return 'optimal';
+  } else if (api.item.value.percentage &gt; 50) {
+    return 'warning';
+  } else {
+    return 'critical';
+  }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-18 04:59:53&lt;/sys_created_on&gt;&lt;sys_id&gt;c6bb4883ffc332109327ffffffffffd9&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;badge/now_default/label&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_c6bb4883ffc332109327ffffffffffd9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-19 08:08:11&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1099139883</payload_hash>
+        <record_name>badge/now_default/label</record_name>
+        <reverted_from/>
+        <source>cb180f90ff4b32109327ffffffffffe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 08:08:11</sys_created_on>
+        <sys_id>4d640a5f534332109327f4b380f7b43a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c74f138020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 08:08:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c9640a5f34433210f99cd4116955c739</update_guid>
+        <update_guid_history>c9640a5f34433210f99cd4116955c739:-1099139883,9743c6dbd1433210e325974c3c90c49a:-169583787,83b2c69b4f43321032017808e401bdfa:98457197,b7528a1bb243321050228201b0b52514:1751132014,f212821b13433210c7fd29acce42bc7a:-1762476550,99e1cad7b74332100aa5e45922e0a21b:641183852,c1bfc44bbbc332106e88e23814630e38:-453121658</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 08:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>3a43a65789df4420ae0b321a7f041900</sys_id>
+        <sys_metadata>c6bb4883ffc332109327ffffffffffd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>badge/now_default/label</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_c6bb4883ffc332109327ffffffffffd9</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_c6bb4883ffc332109327ffffffffffd9">4d640a5f534332109327f4b380f7b43a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 08:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

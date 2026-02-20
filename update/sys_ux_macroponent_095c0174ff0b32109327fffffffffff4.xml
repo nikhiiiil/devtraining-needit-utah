@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "6f51fcc407363e5a52ac464315713ee9",
+            "type": "MACROPONENT"
+        },
+        "elementId": "empty_state",
+        "elementLabel": "Empty state",
+        "eventMappings": [
+            {
+                "eventMappingId": "cmhhtglqcceaabbzggddbiiffaaqiigaaccpc",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_template_messag.NOW_TEMPLATE_MESSAGE_EMPTY_STATE#ACTION_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_template_messag.NOW_TEMPLATE_MESSAGE_EMPTY_STATE#ACTION_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": []
+            }
+        ],
+        "preset": {
+            "controllerElementId": "ci_record",
+            "disabledEventTargetIds": [],
+            "id": "1b362666ffad6210b16bffffffffff0c"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "main_container",
+        "elementLabel": "Main container",
+        "eventMappings": [],
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "explore_ci_header_container",
+                    "elementLabel": "Explore CI Header Container",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL"
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d5da4451a367121066189bd2361e6170",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "explore_ci_header",
+                                "elementLabel": "Explore CI Header",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmhhaarhjjldaabbwnddbiiggdhaaggoeeti",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_cmdb_ws.NAV_ITEM_SELECTED_RELAY_d5da4451a367121066189bd2361e6170",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_cmdb_ws.NAV_ITEM_SELECTED_RELAY_d5da4451a367121066189bd2361e6170",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_095c0174ff0b32109327fffffffffff4",
+                                                    "payload": {
+                                                        "container": {
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "fields": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "fields"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "multiInstField": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "multiInstField"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "params": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "params"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "passiveNavigation"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "route": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "route"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "targetRoute": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "targetRoute"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            },
+                                                            "title": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "title"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "12dccb53a3a3921066189bd2361e61de"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmhhaarhjjleaabbwoddbiiggbbkiixufvk",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "preset": {
+                                    "controllerElementId": "ci_record",
+                                    "disabledEventTargetIds": [],
+                                    "id": "5f46d879ff296210b16bffffffffffcd"
+                                },
+                                "propertyValues": {},
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "explore_ci_header",
+                                        "styles": {
+                                            "width": "100%"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "row",
+                                    "justify-content": "space-between",
+                                    "padding-bottom": "var(--now-scalable-space--xxl)",
+                                    "padding-top": "var(--now-scalable-space--lg)",
+                                    "width": "100%"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "07b0bb09419d26f0af681796bc548f19",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "resizable_pane",
+                    "elementLabel": "Resizable pane",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL"
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "attributeSections": {
+                                    "binding": {
+                                        "address": [
+                                            "get_form_layout_and_data",
+                                            "output",
+                                            "sections"
+                                        ]
+                                    },
+                                    "type": "DATA_OUTPUT_BINDING"
+                                },
+                                "definition": {
+                                    "id": "529f0495a367121066189bd2361e617d",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "explore_ci_nav_tree",
+                                "elementLabel": "Explore CI Nav Tree ",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cmggtjagaauaabbyeeddbiiggbbiiffriffyr",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_cmdb_ws.EXPLORE_CI_NAV_ITEM_SELECTED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_cmdb_ws.EXPLORE_CI_NAV_ITEM_SELECTED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_TRACK_USAGE_REQUESTED",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tevent: 'Explore CI: Click form left nav section',\n\t\tvalue: {'section': event.payload.context.label}\n\t};\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "66375ab240edff20524ba9b56584fad0"
+                                                },
+                                                "operation": null,
+                                                "targetId": "qZbbMCvmccCUjneeddHcMqjjBEZMtP",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": {
+                                    "controllerElementId": "ci_record",
+                                    "disabledEventTargetIds": [],
+                                    "id": "6eb2df5dff612210b16bfffffffffff8"
+                                },
+                                "propertyValues": {},
+                                "slot": "left",
+                                "styles": {
+                                    "background": "rgb(var(--now-color_background--primary))",
+                                    "height": "100%"
+                                }
+                            },
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "main_content_container",
+                                "elementLabel": "Main Content Container",
+                                "eventMappings": [],
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "ebdf4895a367121066189bd2361e6148",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "explore_ci_main_content",
+                                            "elementLabel": "Explore CI Main Content",
+                                            "eventMappings": [
+                                                {
+                                                    "eventMappingId": "cmabapffljjaaddqiddbiiggohhfffiiujff",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_cmdb_ws.NAV_ITEM_SELECTED_RELAY_ebdf4895a367121066189bd2361e6148",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_cmdb_ws.NAV_ITEM_SELECTED_RELAY_ebdf4895a367121066189bd2361e6148",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_095c0174ff0b32109327fffffffffff4",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "external": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "fields": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "fields"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "multiInstField": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "multiInstField"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "navigationOptions": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "params": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "params"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "passiveNavigation": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "passiveNavigation"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "redirect": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "route": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "route"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "targetRoute": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "targetRoute"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        },
+                                                                        "title": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "title"
+                                                                                ]
+                                                                            },
+                                                                            "type": "EVENT_PAYLOAD_BINDING"
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "cbbfcb6b4f7b9210072487af20ce0b8a"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "cmabapffljjaaddqjddbiiggoptdddkudd",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "preset": {
+                                                "controllerElementId": "ci_record",
+                                                "disabledEventTargetIds": [],
+                                                "id": "7bf41f51ffa12210b16bffffffffff87"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": "right",
+                                            "styles": null
+                                        },
+                                        {
+                                            "definition": {
+                                                "id": "dc87bcee22259d229390a8da7fb7b0b3",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "loader",
+                                            "elementLabel": "Loader",
+                                            "eventMappings": [],
+                                            "preset": {
+                                                "controllerElementId": "ci_record",
+                                                "disabledEventTargetIds": [],
+                                                "id": "984285e5ff436210a27bffffffffff1f"
+                                            },
+                                            "propertyValues": {},
+                                            "slot": "right",
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "explore_ci_main_content",
+                                                    "styles": {
+                                                        "padding-left": "var(--now-scalable-space--xl)"
+                                                    }
+                                                },
+                                                {
+                                                    "element_id": "loader",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": null,
+                                            "styles": {
+                                                "flex-direction": "column",
+                                                "width": "100%"
+                                            },
+                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "ariaRegionHeadingLevel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "1"
+                                    },
+                                    "ariaRegionName": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "ariaRole": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "includeAriaHeading": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "section"
+                                    }
+                                },
+                                "slot": "right",
+                                "styles": null
+                            }
+                        ]
+                    },
+                    "preset": {
+                        "controllerElementId": "ci_record",
+                        "disabledEventTargetIds": [],
+                        "id": "0508aa6affad6210b16bffffffffffc0"
+                    },
+                    "propertyValues": {},
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "explore_ci_header_container",
+                            "styles": {}
+                        },
+                        {
+                            "element_id": "resizable_pane",
+                            "styles": {
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "height": "100%",
+                        "padding-left": "var(--now-scalable-space--xl)",
+                        "padding-right": "var(--now-scalable-space--xl)"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": {
+            "controllerElementId": "ci_record",
+            "disabledEventTargetIds": [],
+            "id": "98a72a2affad6210b16bfffffffffff7"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "cfe88f51ff612210b16bffffffffffd1",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "ci_record",
+        "elementLabel": "CI Record",
+        "eventMappings": [
+            {
+                "eventMappingId": "ccYSLkfWWBkdLjjYQJYheqeeddhhaaeedd",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_cmdb_ws.EXPLORE_CI_CLOSE_SCREEN",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_cmdb_ws.EXPLORE_CI_CLOSE_SCREEN",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_58872_needit.SCREEN_STATUS_CHANGED_RELAY_095c0174ff0b32109327fffffffffff4",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "clearStyles": null,
+                                    "color": null,
+                                    "dirtyModalId": null,
+                                    "hasError": null,
+                                    "hasUpdate": null,
+                                    "highlightedValue": null,
+                                    "icon": null,
+                                    "isDirty": null,
+                                    "message": null,
+                                    "screenKey": null,
+                                    "secondaryTitle": null,
+                                    "status": "closed",
+                                    "title": null,
+                                    "tooltipPreview": null
+                                }
+                            },
+                            "sysId": "e2476e71a388221066189bd2361e6138"
+                        },
+                        "operation": null,
+                        "targetId": "eeddPlQdfpeeddDUPGeeddBgIQvweeddggcQA",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "dFQeHfdccCaaggXeeddPIIQgZOdwuii",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_cmdb_ws.EXPLORE_CI_SHOW_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_cmdb_ws.EXPLORE_CI_SHOW_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "49fe7d575f983bb3f8eea3fa8d40694c"
+                        },
+                        "operation": null,
+                        "targetId": "bbdceeddPfRrCknGjjkeeDGnhhmZiicw",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "appId": {
+                "binding": {
+                    "address": [
+                        "appId"
+                    ],
+                    "category": "app"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "configId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "table": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>855c0174ff0b32109327fffffffffffb,895c4174ff0b32109327ffffffffff00</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+    "MACROPONENT_READY": [
+        {
+            "broker": null,
+            "clientScript": null,
+            "conditional": null,
+            "declarativeAction": null,
+            "event": {
+                "apiName": "sn_uxf.MACROPONENT_TRACK_USAGE_REQUESTED",
+                "payload": {
+                    "script": {
+                        "apiVersion": "1.0.0",
+                        "controllerElementId": null,
+                        "inlineScript": "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\tvar roles = api.context.session.user.roles;\n\tvar role = roles.join(',');\n\tif (roles.includes('sn_cmdb_admin') || roles.includes('admin') || roles.includes('maint')) {\n\t\trole = 'sn_cmdb_admin';\n\t} else if (roles.includes('sn_cmdb_editor')) {\n\t\trole = 'sn_cmdb_editor';\n\t} else if (roles.includes('sn_cmdb_user')) {\n\t\trole = 'sn_cmdb_user';\n\t}\n\treturn {\n\t\tevent: 'Explore CI: Form Opened',\n\t\tvalue: {'class': api.context.props.table, 'role': role}\n\t};\n}",
+                        "scriptSysId": null,
+                        "target": null
+                    },
+                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                },
+                "sysId": "66375ab240edff20524ba9b56584fad0"
+            },
+            "operation": null,
+            "targetId": "WInFxvWMDUMffjjfYODskaccrRee",
+            "type": "EVENT"
+        }
+    ]
+}</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "empty_state",
+                "styles": {
+                    "height": "100%"
+                }
+            },
+            {
+                "element_id": "main_container",
+                "styles": {
+                    "background": "rgb(var(--now-color_background--secondary))",
+                    "height": "100%",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>test-record default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_sys_props/>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-11 09:38:25</sys_created_on>
+        <sys_id>095c0174ff0b32109327fffffffffff4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test-record default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_095c0174ff0b32109327fffffffffff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-11 09:40:24</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=095c0174ff0b32109327fffffffffff4"/>
+</record_update>
